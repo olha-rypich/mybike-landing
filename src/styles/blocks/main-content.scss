@@ -1,0 +1,67 @@
+.main-content {
+  background-color: $color-dark;
+
+  &__section {
+    padding-bottom: 92px;
+
+    &:first-child {
+      padding-top: 60px;
+
+      @include on-ipad {
+        padding: 120px 0 132px;
+      }
+
+      @include on-desktop {
+        padding: 120px 0 164px;
+      }
+    }
+
+    &:nth-child(2) {
+      @include on-ipad {
+        padding-bottom: 120px;
+      }
+
+      @include on-desktop {
+        padding-bottom: 144px;
+      }
+    }
+
+    &:nth-child(3) {
+      padding-bottom: 80px;
+
+      @include on-ipad {
+        padding-bottom: 120px;
+      }
+
+      @include on-desktop {
+        padding-bottom: 180px;
+      }
+    }
+
+    &:nth-child(4) {
+      padding-bottom: 120px;
+
+      @include on-desktop {
+        padding-bottom: 180px;
+      }
+    }
+  }
+
+  &__section-title {
+    margin: 0 0 48px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -1.5px;
+    color: #fff;
+    text-align: center;
+
+    @include on-ipad {
+      font-size: 48px;
+    }
+
+    @include on-desktop {
+      font-size: 64px;
+    }
+  }
+}

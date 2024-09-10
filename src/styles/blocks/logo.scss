@@ -1,0 +1,18 @@
+.logo {
+
+  &__image {
+    height: 40px;
+
+    @include on-ipad {
+      height: 56px;
+    }
+
+    &--menu {
+      height: 40px;
+
+      @include on-desktop {
+        height: 56px;
+      }
+    }
+  }
+}
