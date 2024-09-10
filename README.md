@@ -6,7 +6,8 @@ The landing page includes several sections, namely a header with a navigation me
 
 ## Design
 
-To go into the details of the design, you can check out the mockup for the MyBike landing page on Figma: [MYBIKE landing](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
+To go into the details of the design, you can check out the mockup for the MyBike landing page on Figma:
+[MYBIKE landing](https://www.figma.com/file/NZQAIydtHo5QkINyGLHNcq/BIKE-New-Version?node-id=0%3A1)
 
 ## Technologies & Tools Used
 - HTML
@@ -16,4 +17,4 @@ To go into the details of the design, you can check out the mockup for the MyBik
 - Responsive Design
 
 ## Demo
-A live demo of the MyBike Landing is available at [DEMO](https://olha-rypich.github.io/mybike_landing/)
+A live demo of the MyBike Landing is available at [DEMO](https://olha-rypich.github.io/mybike-landing/)
